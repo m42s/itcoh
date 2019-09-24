@@ -1,7 +1,8 @@
 body {
 background-image: url('background-in-the-company-of-humans.jpg');
-background-size: contain;
+background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: top;
+min-height: 100%;
 }
