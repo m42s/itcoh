@@ -1,105 +1,105 @@
-* {
-box-sizing: border-box;
-}
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap);
 
-.row::after {
-content: "";
-clear: both;
-display: table;
-}
-
-[class*="col-"] {
-Xfloat: left;
-padding: 15px;
-}
-
-html {
-font-family: "Lucida Sans", sans-serif;
-}
-
-.header {
-    background-color: #9933cc;
-    color: #ffffff;
-    padding: 15px;
-}
-
-.menu ul {
+ul.menu {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
-
 .menu li {
-    padding: 8px;
-    margin-bottom: 10px;
+    padding-right: 0.5rem;
     display: inline-block;
 }
 
-.menu .ig {
-    font-size: 2em;
-    background: url(background-in-the-company-of-humans.jpg) no-repeat 6px center;
-    width: 100px;
-    height: 100px;
-    display: block;
+img.shine {
+    max-width: 300px;
+    height: auto;
 }
 
-.login {
-    background: url(../img/user.png) no-repeat 6px center;
+h1 {
+    border: 0px solid green;
+    font-size: 1.1rem;
+    color: red;
+    padding-top: 0px;
+    position: absolute;
+    left: 1%;
+    top: -200px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
 }
 
-.aside {
-background-color: #33b5e5;
-padding: 15px;
-color: #ffffff;
-text-align: center;
-font-size: 14px;
-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+h2 {
+    color: red;
+    position: absolute;
+    top: -195px;
+    left: 10%;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    line-height: 1;
 }
 
-.footer {
-background-color: #0099cc;
-color: #ffffff;
-text-align: center;
-font-size: 12px;
-padding: 15px;
+.container {
+    border: 0px dotted gray;
 }
 
-/* For mobile phones: */
-[class*="col-"] {
-width: 100%;
+@media only screen and (min-width: 33.75em) {  /* 540px */
+    body {
+        xbackground-color: pink;
+    }
+    img.shine {
+        max-width: 400px;
+    }
+    h1 {
+        font-size: 1.2rem;
+        left: 14%;
+        top: -260px;
+        letter-spacing: 0.2rem;
+    }
+    h2 {
+        font-size: 2.6rem;
+        left: 20%;
+        top: -255px;
+        letter-spacing: 0.1rem;
+    }
+}
+  
+@media only screen and (min-width: 45em) {  /* 720px */
+    body {
+       xbackground-color: lightseagreen;
+    }
+    img.shine {
+        max-width: 450px;
+    }
+    h1 {
+        font-size: 1.2rem;
+        left: 20%;
+        top: -280px;
+        letter-spacing: 0.2rem;
+    }
+    h2 {
+        font-size: 3.0rem;
+        left: 23%;
+        top: -280px;
+        letter-spacing: 0.1rem;
+    }
 }
 
-@media only screen and (min-width: 600px) {
-/* For tablets: */
-.col-s-1 {width: 8.33%;}
-.col-s-2 {width: 16.66%;}
-.col-s-3 {width: 25%;}
-.col-s-4 {width: 33.33%;}
-.col-s-5 {width: 41.66%;}
-.col-s-6 {width: 50%;}
-.col-s-7 {width: 58.33%;}
-.col-s-8 {width: 66.66%;}
-.col-s-9 {width: 75%;}
-.col-s-10 {width: 83.33%;}
-.col-s-11 {width: 91.66%;}
-.col-s-12 {width: 100%;}
-}
-@media only screen and (min-width: 768px) {
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-}
-
-.center {
-    margin: auto;
+@media only screen and (min-width: 60em) { /* 960px */
+    body {
+        xbackground-color: rgb(100, 116, 84);
+    }
+    img.shine {
+        max-width: 400px;
+    }
+    h1 {
+        font-size: 1.2rem;
+        left: 32%;
+        top: -260px;
+        letter-spacing: 0.2rem;
+    }
+    h2 {
+        font-size: 3.0rem;
+        left: 33%;
+        top: -260px;
+        letter-spacing: 0.1rem;
+    }
 }
