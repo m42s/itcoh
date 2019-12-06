@@ -4,7 +4,7 @@ ul.menu {
     list-style-type: none;
 }
 .menu li {
-    padding-right: 0.5rem;
+    padding-right: 1.5rem;
     display: inline-block;
 }
 
