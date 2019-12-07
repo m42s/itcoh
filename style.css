@@ -1,18 +1,101 @@
-/* html {
-background-image: url(background-in-the-company-of-humans.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: top;
-min-height: 100%;
-} */
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap);
 
+.splash{
+    position: relative;
+}
+.slogan {
+    border: 0px solid green;
+    position: absolute;
+    left: 0;
+    top: 61%;
+    width: 100%;
+    text-align: center;
+}
 
-html { 
-    background: url(background-in-the-company-of-humans.jpg) no-repeat top center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 100%;
+ul.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menu li {
+    padding: 0;
+    margin: 1rem;
+    display: inline-block;
+}
+
+img.shine {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 1.1rem;
+    color: red;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+h2 {
+    color: red;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.1rem;
+
+}
+
+.container {
+    border: 0px dotted gray;
+}
+
+@media only screen and (min-width: 22.0em) {
+    body {
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+    body {
+        background-color: white;
+    }
+    img.shine {
+        max-width: 420px;
+    }
+    h1 {
+        font-size: 1.3rem;
+        letter-spacing: 0.2rem;
+    }
+    h2 {
+        font-size: 2.6rem;
+        letter-spacing: 0.2rem;
+    }
+}
+  
+@media only screen and (min-width: 45em) {  /* 720px */
+    body {
+       background-color: white;
+    }
+    img.shine {
+        max-width: 440px;
+    }
+    h1 {
+        font-size: 1.4rem;
+    }
+    h2 {
+        font-size: 2.8rem;
+    }
+}
+
+@media only screen and (min-width: 60em) { /* 960px */
+    body {
+        background-color: white;
+    }
+    img.shine {
+        max-width: 440px;
+    }
 }
